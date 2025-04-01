@@ -13,30 +13,28 @@
     <title>April Fools Stoopid!</title>
 
     <style>
-      .exo {
+      body {
         font-family: 'Rubik', sans-serif;
+        background-image: url('assets/images/background.jpg');
+      }
+      .centered {
+        text-align: center;
       }
     </style>
   </head>
-  <body style="background-image: url('assets/images/background.jpg')" class="exo">
-    <center>
-      <h1 class="fs-l4 fw-700 text-stroke-yellow-light text-fill-yellow-light exo ml-10">
+  <body>
+    <div class="centered">
+      <h1 class="fs-l4 fw-700 text-stroke-yellow-light text-fill-yellow-light ml-10">
         April Fools Pussy!
       </h1>
-    </center>
+    </div>
 
-    <section class="flex mt-m2">
-      <div class="w-25pc">&nbsp;</div>
-      <div class="w-50pc">
-        <center>
-          <video width="320" height="240" autoplay>
-            <source src="assets/videos/movie.mp4" type="video/mp4">
-            <source src="assets/videos/movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
-        </center>
-      </div>
-      <div class="w-25pc">&nbsp;</div>
+    <section class="flex mt-m2 centered">
+      <video width="320" height="240" autoplay controls>
+        <source src="assets/videos/movie.mp4" type="video/mp4">
+        <source src="assets/videos/movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
     </section>
 
     <script src="https://kit.fontawesome.com/0098dc515c.js" crossorigin="anonymous"></script>
